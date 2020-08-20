@@ -1,0 +1,29 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Defining a variable
+$gray: #F4F4F4;
+
+body {
+  font-family: sans-serif;
+}
+
+.answers {
+ // Using this variable
+  border-left: $gray solid 5px;
+  padding: 10px;
+  height: 70px;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: dodgerblue;
+  font-size: 13px;
+  padding-left: 26px;
+}
+
+#coach-answer {
+  background-color: lightyellow;
+}
